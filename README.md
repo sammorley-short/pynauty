@@ -1,5 +1,12 @@
 # Pynauty
+
+Version 1.0
+
 *by Sam Morley-Short*
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2582612.svg)](https://doi.org/10.5281/zenodo.2582612)
+
+----
 
 This is a fork of `pynauty`--a Python extension of the C module `nauty`--to add extra features needed for exploring LC classes of quantum graph states.
 
