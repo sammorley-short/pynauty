@@ -8,18 +8,16 @@ Version 1.0
 
 ----
 
-This is a fork of `pynauty`--a Python extension of the C module `nauty`--to add extra features needed for exploring LC classes of quantum graph states.
+This is a fork of `pynauty`--a Python extension of the C module `nauty`--to add extra features needed for exploring LC classes of quantum graph states. Specifically, this fork adds a function used for canonical graph labelling such that any two isomorphic graphs have the same canonical node labelling. 
 
-It was made entirely for use by my other Graph State Compass (gsc) module, which can be found [here](https://github.com/sammorley-short/gsc).
-
-It is redistributed under the GPL v3 copyleft lisence WITHOUT ANY WARRANTY.
+This fork was made entirely for use by the package Graph State Compass (gsc), which can be found [here](https://github.com/sammorley-short/gsc). It is redistributed under the GPL v3 copyleft lisence WITHOUT ANY WARRANTY.
 
 To install, follow the instructions provided [here](https://web.cs.dal.ca/~peter/software/pynauty/html/install.html).
 
 Loosely, this requires:
 
 1. Downloading nauty, (working as of version 27b11, found [here](http://users.cecs.anu.edu.au/~bdm/nauty/nauty27b11.tar.gz)),
-2. Unzipping it and placing it in `/pynauty-hack`,
+2. Unzipping it and placing it in the top-level of this repo (e.g. `/pynauty`),
 3. Symbolic link the nauty directory to `/nauty` (for the above case on Mac OS X this means running `ln -s nauty27b11 nauty` from the command line),
 4. Installing pynauty (`make user-ins` can be used to install globally).
 
